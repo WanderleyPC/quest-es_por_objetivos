@@ -33,7 +33,7 @@ def filtro_n_repetição(questões_novas):
         similaridade = cosine_similarity(matriz)
 
         # Limiar de similaridade
-        limiar = 0.8
+        limiar = 0.6
 
         # Vai indetificar quais são as novas questões que são repetidas
         novas_questões_são_repetidas=[]
