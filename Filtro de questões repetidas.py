@@ -2,8 +2,8 @@
 # use o que o chat falou: https://chatgpt.com/c/69541e74-0724-8330-841c-d91f3a9e1500
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import Gerador_das_questões
-
+import Gerador_das_questões_mar
+import json
 # Suas questões (exemplo)
 '''
 questoes = [
@@ -14,9 +14,24 @@ questoes = [
     "O que é insuficiência cardiovascular?"
 ]'''
 
-questões=Gerador_das_questões.gerar_questão('Pele humana')
+#Gera mais questões
+questões=Gerador_das_questões_mar.gerar_questão('Pele humana')
+
+# Mostra as novas questões geradas
 for i in questões:
     print (i)
+    
+# Trás as questões antigas do banco de questões
+with open('banco_de_questões.json', 'r', encoding='utf-8') as configuração:
+    questões_anteriores=json.load(configuração)
+
+
+# Une as questões antigas as novas
+questões= questões_anteriores+questões
+
+# Salva todas no banco de questões
+with open("banco_de_questões.json", "w", encoding="utf-8") as arquivo:
+    json.dump(questões, arquivo, ensure_ascii=False)
 
 # Vetorização (sem stopwords automáticas)
 vectorizer = TfidfVectorizer(
@@ -29,7 +44,7 @@ matriz = vectorizer.fit_transform(questões)
 similaridade = cosine_similarity(matriz)
 
 # Limiar de similaridade
-limiar = 0.6
+limiar = 0.8
 
 parecidas=0
 for i in range(len(questões)):

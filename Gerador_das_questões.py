@@ -21,7 +21,10 @@ def gerar_questão(objetivo):
             temperature=0.1),
         contents=f"Seu objetivo é: {objetivo}"
     )
+    print(response.text)
     questões=response.text.split('[+++]')
     return (questões)
+
+
 
 
