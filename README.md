@@ -1,3 +1,4 @@
+# Comecei esse prejeti dia 30/12/25
 # Programa
 Esse programa vai:
 1. Gerar 30 questões usando uma API do Gemini ou do MAritalk usando as informações de alguns livros e alinhado a um objetivo que o usuário vai dizer.
