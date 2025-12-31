@@ -60,5 +60,5 @@ d) C2, C3 e C5
 ---
 
 # AÇÃO
-- Gere as 2 questões usando como base os objetivos que foram dados. As questões deve estar de acordo com o padrão do FORMATO DAS QUESTÕES.
+- Gere as 3 questões usando como base os objetivos que foram dados. As questões deve estar de acordo com o padrão do FORMATO DAS QUESTÕES.
 - Não coloque gabarito ou qualquer outra coisa

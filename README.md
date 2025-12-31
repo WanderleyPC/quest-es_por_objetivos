@@ -7,7 +7,8 @@ Esse programa vai:
     - Corretas (sem erros)
     - Evitar questões repetidas ou muito parecidas: vai comparar com todas as questões anteriores e assim eliminar as muito parecidas (acho que existe algoritimos para isso, não precisa ser IA).
     - Aleatorizar as alternativas das questões para evitar que as questões tenham uma gabarito muito igual.
-3. Selecionar 10 questões aleatorias do numero de questões que passaram pelos filtros (se não tiver passado nem 10, então ele vai voltar na etapa anterior e vai gerar mais até dar as 10, se tiver a mais ele armazena o restante para depois).
+    - Eliminar questões na qual uma alternativa é muito maior que as demais (a ia tende a colocar a resposta certa maior que as outras opções).
+3. Selecionar 10 questões aleatorias do numero de questões que passaram pelos filtros (se não tiver passado nem 10, então ele vai voltar na etapa anterior e vai gerar mais até dar as 10, se tiver a mais ele armazena o restante para depois). 
 4. Gera o gabarito da questão.
 5. Se o usuario clicar ele pode medir para a explicação do gabarito e ter um chat sobre essa questão.
 

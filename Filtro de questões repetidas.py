@@ -4,15 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import Gerador_das_questões_mar
 import json
-# Suas questões (exemplo)
-'''
-questoes = [
-    "O que é pressão arterial sistêmica?",
-    "Defina pressão arterial e seus componentes",
-    "Explique o mecanismo da pressão arterial",
-    "O que é insuficiência cardíaca?",
-    "O que é insuficiência cardiovascular?"
-]'''
+import os
 
 #Gera mais questões
 questões=Gerador_das_questões_mar.gerar_questão('Pele humana')
@@ -20,14 +12,23 @@ questões=Gerador_das_questões_mar.gerar_questão('Pele humana')
 # Mostra as novas questões geradas
 for i in questões:
     print (i)
-    
-# Trás as questões antigas do banco de questões
-with open('banco_de_questões.json', 'r', encoding='utf-8') as configuração:
-    questões_anteriores=json.load(configuração)
 
 
-# Une as questões antigas as novas
-questões= questões_anteriores+questões
+# Verifica se o banco de questões já existe ou se ainda deve ser criado
+if os.path.exists('banco_de_questões.json'):
+    # Trás as questões antigas do banco de questões
+    with open('banco_de_questões.json', 'r', encoding='utf-8') as configuração:
+        questões_anteriores=json.load(configuração)
+
+    # Une as questões antigas as novas
+    questões= questões_anteriores+questões
+
+else:
+    # Cria um banco de questões para quando não tem um 
+    with open("banco_de_questões.json", "w", encoding="utf-8") as arquivo:
+        json.dump(questões, arquivo, ensure_ascii=False)
+
+
 
 # Salva todas no banco de questões
 with open("banco_de_questões.json", "w", encoding="utf-8") as arquivo:
