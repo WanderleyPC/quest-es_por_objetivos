@@ -1,7 +1,7 @@
 import adicionar_questões_ao_banco_de_questões
 import Gerador_das_questões_mar
 import Filtro_de_questões_repetidas
-
+import aleatorizador_de_alternativas
 
 
 # Gera mais questões
@@ -10,5 +10,8 @@ questões=Gerador_das_questões_mar.gerar_questão('1. Esclarecer a constituiç�
 # Elimino as questões que estejam repetidas. Depois você pode mandar apenas as que você acertou, assim as que você errou continuaram sendo repetidas dela propria geração da ia, até que o usuário as acerte.
 questões_novas_não_repetidas= Filtro_de_questões_repetidas.filtro_n_repetição(questões)
 
+# aleatoriza as alternativas das questões_novas_não_repetidas
+questões_Altenativas_aleatorias_novas= aleatorizador_de_alternativas.aleatorizar_alternativas(questões_novas_não_repetidas)
+
 # Salva todas no banco de questões
-adicionar_questões_ao_banco_de_questões.adicionar_questões(questões_novas_não_repetidas)
+adicionar_questões_ao_banco_de_questões.adicionar_questões(questões_Altenativas_aleatorias_novas)

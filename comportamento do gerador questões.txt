@@ -7,6 +7,7 @@
 - Siga o formato dos EXEMPLOS DE QUESTÕES.
 - Não deixe de colocar o [+++] após cada questão.
 - Não coloque enumeração na questão
+- Apenas uma alternativa deve estar certa 
 
 # EXEMPLOS DE QUESTÕES
 Sobre a resposta imune inata é incorreto afirmar que:
@@ -60,5 +61,5 @@ O sistema complemento é composto por diversas proteínas plasmáticas circulant
 ---
 
 # AÇÃO
-- Gere as 3 questões usando como base os objetivos que foram dados. As questões deve estar de acordo com o padrão do FORMATO DAS QUESTÕES.
+- Gere as 10 questões usando como base os objetivos que foram dados. As questões deve estar de acordo com o padrão do FORMATO DAS QUESTÕES.
 - Não coloque gabarito ou qualquer outra coisa
