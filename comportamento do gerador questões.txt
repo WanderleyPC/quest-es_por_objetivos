@@ -1,0 +1,64 @@
+**Esse prompt está em Markdown**
+
+# FORMATO DAS QUESTÕES
+## Questões objetivas com os seguintes elementos:
+- Tem 5 alternativas (A, B, C, D e E).
+- São questões focadas nos pontos mais importantes dos objetivos, evite focar em detalhes sem muita importância.
+- Siga o formato dos EXEMPLOS DE QUESTÕES.
+- Não deixe de colocar o [+++] após cada questão.
+- Não coloque enumeração na questão
+
+# EXEMPLOS DE QUESTÕES
+Sobre a resposta imune inata é incorreto afirmar que:
+a) Os dois tipos principais de reações protetoras do sistema imune inato são a inflamação e a defesa antiviral.
+b) A imunidade inata elimina células danificadas e inicia o processo de reparo tecidual.
+c) Os receptores tipo Toll (TRLs, do inglês Toll-like receptors) são uma família de receptores que reconhecem os PAMPs em sistema de sinalização que estão bastante relacionados àqueles usados pelas citocinas inflamatórias TNF-α e IL-1.
+d) Os principais componentes da imunidade inata são: (1) barreiras físicas e químicas, tais como os epitélios e os agentes antimicrobianos produzidos nas superfícies epiteliais; (2) células fagocíticas (neutrófilos, macrófagos), células dendríticas, mastócitos, células natural killer e outras células linfoides inatas; e (3) proteínas sanguíneas, incluindo componentes do sistema complemento e outros mediadores da inflamação.
+e) As respostas imunes inatas são as reações iniciais aos microrganismos que servem para prevenir, controlar ou eliminar a infecção do hospedeiro por muitos patógenos. Uma de suas características principais é o fato de não possuir especificidade e, por isso, não é capaz de atuar de forma conjunta à imunidade adaptativa.
+[+++]
+A resposta imunológica é uma sequência complexa e extremamente regulada de eventos envolvendo diversos tipos de células. É deflagrada quando um antígeno penetra no organismo e entra em contato com uma classe especializada de células, denominadas células apresentadoras de antígeno (APC, antigen-presenting cells). Essas APC capturam uma diminuta quantidade do antígeno e a exibem numa forma que possa ser reconhecida por linfócitos T auxiliares antígeno-específicos.
+Sobre a resposta imunológica, analise as afirmações abaixo:
+I. As células T só reconhecem imunógenos que estão ligados a proteínas do complexo principal de histocompatibilidade (MHC) sobre a superfície de outras células.
+II. As proteínas do MHC da classe I são apenas expressas por macrófagos e alguns outros tipos de células e são necessárias para a apresentação do antígeno às células T CD4.
+III. A proliferação e diferenciação das células T naive requerem sinais fornecidos por moléculas das APCs, denominadas coestimuladores. Na ausência da coestimulação, as células T que encontram antígenos falham ao responder ou entram em um estado prolongado de não responsividade.
+IV. As proteínas do MHC da classe II são expressas por praticamente todos os tipos de células somáticas e são utilizadas para apresentar substâncias às células T CD8.
+V. As células apresentadoras de antígenos (células dendríticas) monitorizam continuamente a pele, o trato gastrointestinal, as vias respiratórias, o sangue e a linfa à procura de invasores estranhos.
+É **correto** o que se afirmar apenas em:
+a) I, III e V
+b) II e IV
+c) III e V
+d) I e V
+e) I e III
+[+++]
+Analise as afirmativas a seguir e assinale V para as verdadeiras e F para falsas:
+( ) IgA são anticorpos presentes na saliva e leite materno.
+( ) IgD são anticorpos que funcionam como receptores de antígenos nos linfócitos T.
+( ) IgE são anticorpos envolvidos nas reações alérgicas.
+( ) IgG são anticorpos que ultrapassam a barreira placentária e conferem imunidade ao feto.
+( ) IgM são anticorpos de imunidade primária.
+Assinale a alternativa que define a sequência correta:
+a) V, V, F, F, V
+b) V, F, V, V, V
+c) F, F, V, V, V
+d) V, F, V, F, V
+e) V, F, V, V, F
+[+++]
+O sistema imunológico é constituído por uma complexa rede de células e moléculas dispersas por todo o organismo e se caracteriza, biologicamente, pela capacidade de reconhecer, especificamente, determinadas estruturas moleculares ou antígenos e desenvolver uma resposta efetora diante destes estímulos, provocando a sua destruição ou inativação. Isso ocorre pela ativação das células efetoras e produção de anticorpos.
+Sobre o sistema imunológico, é correto afirmar:
+a) A imunidade humoral relaciona-se às várias linhagens de linfócitos e macrófagos, formados a partir de uma reação a um agente infeccioso.
+b) A principal vantagem da imunização ativa é a disponibilidade imediata de grandes quantidades de anticorpos, pré-formados em outros organismos.
+c) Os antígenos são substâncias proteicas formadas a partir do contato do organismo com agentes infecciosos, ou substâncias estranhas, capazes de estimular a resposta imune.
+d) Os anticorpos possuem, como principal função, a proteção contra agentes infecciosos, ou seus produtos, pois têm a capacidade de neutralizar toxinas, vírus e opsonizar microrganismos.
+[+++]
+O sistema complemento é composto por diversas proteínas plasmáticas circulantes que atuam como mediadores da resposta inflamatória nos seres humanos. A via clássica de ativação de complemento se difere da via alternativa por utilizar, em seu processo, os complementos do tipo:
+a) C1, C2 e C5
+b) C2, C3 e C4
+c) C1, C2 e C4
+d) C2, C3 e C5
+[+++]
+
+---
+
+# AÇÃO
+- Gere as 10 questões usando como base os objetivos que foram dados. As questões deve estar de acordo com o padrão do FORMATO DAS QUESTÕES.
+- Não coloque gabarito ou qualquer outra coisa
