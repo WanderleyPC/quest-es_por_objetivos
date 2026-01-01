@@ -19,7 +19,7 @@ def gerar_questão(objetivo):
         )
 
         response = client.chat.completions.create(
-        model="sabia-3-small",
+        model="sabia-3.1", #   sabia-3-small
         messages=[
             {"role": "system", "content": comportamento},
             {"role": "user", "content": f"Seu objetivo é: {objetivo}"},
