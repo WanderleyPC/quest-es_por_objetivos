@@ -40,3 +40,8 @@ servir como base para novas questões.
 
 # Ideias: outros
 - Dar a referência de qual livro e quais capitulos (determinado pelos marcadores) foram usados para criar cada uma das questões.
+
+---
+
+# Ideias que deram errado:
+- mandar as questões que ele já fez e falar para fazer diferente: Se eu mandar as questões que ele já fez e falar para fazer diferente, pelos meus teste de similiaridade, tem mais chance de ele gerar questões igual (ou muito parecidas ) as que ele já fez do que deixa sem esse contexto.

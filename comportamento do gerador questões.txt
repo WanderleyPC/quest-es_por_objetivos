@@ -61,5 +61,5 @@ O sistema complemento é composto por diversas proteínas plasmáticas circulant
 ---
 
 # AÇÃO
-- Gere as 10 questões usando como base os objetivos que foram dados. As questões deve estar de acordo com o padrão do FORMATO DAS QUESTÕES.
+- Gere as 30 questões usando como base os objetivos que foram dados. As questões deve estar de acordo com o padrão do FORMATO DAS QUESTÕES.
 - Não coloque gabarito ou qualquer outra coisa
