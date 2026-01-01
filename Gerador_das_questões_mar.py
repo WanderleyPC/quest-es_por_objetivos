@@ -2,6 +2,8 @@ def gerar_questão(objetivo):
     try:
         # Gera a varias questões a partir de um objetivo e a entrega em dentro de um lista usando o maritaca
         import openai
+        import json
+        import os
 
 
         # Estou importando a chave da api de fora do programa
@@ -22,7 +24,7 @@ def gerar_questão(objetivo):
         model="sabia-3.1", #   sabia-3-small
         messages=[
             {"role": "system", "content": comportamento},
-            {"role": "user", "content": f"Seu objetivo é: {objetivo}"},
+            {"role": "user", "content": f"Seu objetivo é: {objetivo}."},
         ],
         max_tokens=8000,
         temperature=0.1
